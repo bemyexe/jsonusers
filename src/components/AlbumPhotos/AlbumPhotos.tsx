@@ -16,6 +16,7 @@ const AlbumPhotos: FC<IAlbumPhotosProps> = ({ album }) => {
       <div>ALBUMID: {album.albumId}</div>
       <div>photo id: {album.id}</div>
       <div className={classes.title}>photo title: {album.title}</div>
+      <div>adad</div>
       <img
         onClick={() => setShowModal(true)}
         src={album.thumbnailUrl}
