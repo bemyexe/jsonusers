@@ -1,0 +1,9 @@
+.todo {
+  border: 1px solid black;
+  .title_content {
+    display: flex;
+  }
+  &:hover {
+    background-color: rgba(175, 223, 255);
+  }
+}

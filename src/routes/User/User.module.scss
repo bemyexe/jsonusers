@@ -1,0 +1,38 @@
+$border: black;
+$font: "Oswald", sans-serif;
+
+.usercard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  font-family: $font;
+
+  .userinfo {
+    border: 1px solid $border;
+    grid-column: 2;
+  }
+  .todos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1/3;
+    gap: 10px;
+    .todos_title {
+      grid-column: span 2;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .albums {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    .albums_title {
+      display: flex;
+      justify-content: center;
+    }
+    .album_link {
+      text-decoration: none;
+      color: $border;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.userlist {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

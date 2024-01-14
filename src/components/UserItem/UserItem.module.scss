@@ -1,0 +1,28 @@
+$hoverColor: red;
+$oncClickColor: white;
+.user {
+  border: 1px solid black;
+  padding: 5px;
+
+  .full {
+    display: none;
+  }
+  &:hover {
+    .usercard {
+      color: $hoverColor;
+    }
+    .full {
+      display: block;
+      color: $hoverColor;
+    }
+  }
+  &:active {
+    background: rgb(34, 82, 240);
+    .usercard {
+      color: $oncClickColor;
+    }
+    .full {
+      color: $oncClickColor;
+    }
+  }
+}

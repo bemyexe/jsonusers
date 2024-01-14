@@ -1,0 +1,12 @@
+.photo_content {
+  width: 150px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  .title {
+    min-height: 100px;
+  }
+  .photo {
+    cursor: pointer;
+  }
+}
