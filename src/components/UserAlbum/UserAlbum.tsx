@@ -9,8 +9,8 @@ interface IUserAlbumProps {
 const UserAlbum: FC<IUserAlbumProps> = ({ album }) => {
   return (
     <div className={classes.album}>
-      <div>album UserId: {album.userId}</div>
-      <div>album id: {album.id}</div>
+      <div>album UserID: {album.userId}</div>
+      <div>album ID: {album.id}</div>
       <div>album title: {album.title}</div>
     </div>
   );
