@@ -11,7 +11,7 @@ const SearchForm: FC<ISearchFormProps> = ({ handleSubmit }) => {
     <>
       <form autoComplete="off" onSubmit={handleSubmit}>
         <SearchInput />
-        <SearchButton>search</SearchButton>
+        <SearchButton>searchhh</SearchButton>
       </form>
     </>
   );
